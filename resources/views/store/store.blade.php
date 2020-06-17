@@ -4,9 +4,6 @@
 
 <div class="container">
 
-{{$store->id}}
-{{$store->store_name}}
-
 
 
 </div>

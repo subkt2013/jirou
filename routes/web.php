@@ -17,5 +17,5 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/{store_name}','StoresController@show')->name('stores.show');
-Route::post('/{store_name}', 'StoresController@store')->name('stores.update');
+Route::get('/{id}','StoresController@show')->name('store.show');
+Route::post('/{store_name}', 'StoresController@store')->name('store.store');

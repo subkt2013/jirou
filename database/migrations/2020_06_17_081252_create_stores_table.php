@@ -16,9 +16,9 @@ class CreateStoresTable extends Migration
         Schema::create('stores', function (Blueprint $table) {
             $table->bigInteger('id',true)->unsigned();
             $table->string('store_name')->unique();
-            //時間データはどういう持ち方をするか $table->bigInteger('wait_time');
+            $table->bigInteger('wait_people')->unsigned();
+            $table->bigInteger('estemated_wait_time')->unsigned();
             $table->text('introduction', 65535)->nullable()->comment('[店舗紹介]');
-            $table->rememberToken();
             $table->timestamp('created_at')->nullable();
         });
     }

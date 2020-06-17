@@ -10,6 +10,9 @@ class Store extends Model
 
     protected $fillable =[
         'store_name',
+        'wait_people',
+        'estemated_wait_time',
+        'introduction',
     ];
 
 
