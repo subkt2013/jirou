@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/{id}','StoresController@show')->name('store.show');
+Route::get('jirou/{id}','StoresController@show')->name('store.show');
 
-Route::post('/{store_name}', 'StoresController@store')->name('store.store');
+//Route::post('/{store_name}', 'StoresController@store')->name('store.store');
