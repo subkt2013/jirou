@@ -15,10 +15,10 @@
             </div><!-- /.card-header -->
             <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-            <a href="#">歌舞伎町店</a>
+            <a href="{{ route('store.show',1) }}">歌舞伎町店</a>
             </div><!-- /.card-body -->
             <div class="card-body">
-            <a href="#">新宿小滝橋通り店</a>
+            <a href="{{ route('store.show',2) }}">新宿小滝橋通り店</a>
             </div><!-- /.card-body -->
             </div><!-- /.collapse -->
         </div><!-- /.card -->
@@ -32,10 +32,10 @@
             </div><!-- /.card-header -->
             <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
-            <a href="#">三田本店</a>
+            <a href="{{ route('store.show',3) }}">三田本店</a>
             </div><!-- /.card-body -->
             <div class="card-body">
-            <a href="#">新橋店</a>
+            <a href="{{ route('store.show',4) }}">新橋店</a>
             </div><!-- /.card-body -->
             </div><!-- /.collapse -->
             </div><!-- /.card -->
@@ -49,7 +49,7 @@
             </div><!-- /.card-header -->
             <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
-            <a href="#">亀戸店</a>
+            <a href="{{ route('store.show',5) }}">亀戸店</a>
             </div><!-- /.card-body -->
             </div><!-- /.collapse -->
         </div><!-- /.card -->
@@ -63,7 +63,7 @@
             </div><!-- /.card-header -->
             <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
-            <a href="#">品川店</a>
+            <a href="{{ route('store.show',6) }}">品川店</a>
             </div><!-- /.card-body -->
             </div><!-- /.collapse -->
         </div><!-- /.card -->
@@ -77,7 +77,7 @@
             </div><!-- /.card-header -->
             <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
-            <a href="#">目黒店</a>
+            <a href="{{ route('store.show',7) }}">目黒店</a>
             </div><!-- /.card-body -->
             </div><!-- /.collapse -->
         </div><!-- /.card -->
@@ -91,7 +91,7 @@
             </div><!-- /.card-header -->
             <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
-            <a href="#">JR西口蒲田店</a>
+            <a href="{{ route('store.show',8) }}">JR西口蒲田店</a>
             </div><!-- /.card-body -->
             </div><!-- /.collapse -->
         </div><!-- /.card -->
@@ -105,12 +105,12 @@
             </div><!-- /.card-header -->
             <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
-            <a href="#">環七新代田店</a>
+            <a href="{{ route('store.show',9) }}">環七新代田店</a>
             </div><!-- /.card-body -->
             </div><!-- /.collapse -->
             <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
-            <a href="#">上野毛店</a>
+            <a href="{{ route('store.show',10) }}">上野毛店</a>
             </div><!-- /.card-body -->
             </div><!-- /.collapse -->
         </div><!-- /.card -->
@@ -124,7 +124,7 @@
             </div><!-- /.card-header -->
             <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-            <a href="#">荻窪店</a>
+            <a href="{{ route('store.show',11) }}">荻窪店</a>
             </div><!-- /.card-body -->
             </div><!-- /.collapse -->
         </div><!-- /.card -->
@@ -138,7 +138,7 @@
             </div><!-- /.card-header -->
             <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-            <a href="#">池袋東口店</a>
+            <a href="{{ route('store.show',12) }}">池袋東口店</a>
             </div><!-- /.card-body -->
             </div><!-- /.collapse -->
         </div><!-- /.card -->
@@ -152,7 +152,7 @@
             </div><!-- /.card-header -->
             <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-            <a href="#">赤羽店</a>
+            <a href="{{ route('store.show',13) }}">赤羽店</a>
             </div><!-- /.card-body -->
             </div><!-- /.collapse -->
         </div><!-- /.card -->
@@ -166,7 +166,7 @@
             </div><!-- /.card-header -->
             <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-            <a href="#">西台駅前店</a>
+            <a href="{{ route('store.show',14) }}">西台駅前店</a>
             </div><!-- /.card-body -->
             </div><!-- /.collapse -->
         </div><!-- /.card -->
@@ -180,7 +180,7 @@
             </div><!-- /.card-header -->
             <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-            <a href="#">桜台駅前店</a>
+            <a href="{{ route('store.show',15) }}">桜台駅前店</a>
             </div><!-- /.card-body -->
             </div><!-- /.collapse -->
         </div><!-- /.card -->
@@ -194,7 +194,7 @@
             </div><!-- /.card-header -->
             <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-            <a href="#">千住大橋駅前店</a>
+            <a href="{{ route('store.show',16) }}">千住大橋駅前店</a>
             </div><!-- /.card-body -->
             </div><!-- /.collapse -->
         </div><!-- /.card -->
@@ -208,12 +208,12 @@
             </div><!-- /.card-header -->
             <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-            <a href="#">環七一之江店</a>
+            <a href="{{ route('store.show',17) }}">環七一之江店</a>
             </div><!-- /.card-body -->
             </div><!-- /.collapse -->
             <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-            <a href="#">小岩店</a>
+            <a href="{{ route('store.show',18) }}">小岩店</a>
             </div><!-- /.card-body -->
             </div><!-- /.collapse -->
 

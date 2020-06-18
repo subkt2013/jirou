@@ -18,4 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/{id}','StoresController@show')->name('store.show');
+
 Route::post('/{store_name}', 'StoresController@store')->name('store.store');
