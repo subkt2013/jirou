@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('jirou/{id}','StoresController@show')->name('store.show');
 
 //Route::post('/{store_name}', 'StoresController@store')->name('store.store');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
