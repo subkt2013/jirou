@@ -38,15 +38,13 @@
                     <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     最新更新順
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="#">NBA</a> </div>
                     </li>
                     <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     人数
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="#">NBA</a> </div>
                     </li>
                     <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="{{ route('login') }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    ログイン(投稿で二郎おごります)
+                    投稿(ご協力で二郎おごります)
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="/login">NBA</a> </div>
                     </li>
