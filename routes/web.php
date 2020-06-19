@@ -23,4 +23,4 @@ Route::get('jirou/{id}','StoresController@show')->name('store.show');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');

@@ -3,6 +3,34 @@
 @section('content')
 
 <div class="container">
+@if (session('status'))
+        <div class="alert alert-success" role="alert">
+            {{ session('status') }}
+        </div>
+    @endif
+    @guest
+        <div class="mb-4">
+            <a href="{{ route('login') }}" class="btn btn-primary">
+                ログイン
+            </a>
+            @if (Route::has('register'))
+            <a href="{{ route('register') }}" class="btn btn-primary">
+                登録
+            </a>
+            @endif
+        </div>
+    @else
+        <div class="mb-4">
+            <a class="btn btn-primary" href="{{ route('logout') }}" 
+                onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();">
+                ログアウト
+            </a>
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" >
+                @csrf
+            </form>
+        </div>
+    @endguest
     <div class="accordion" id="accordion" role="tablist" aria-multiselectable="true">
         <h2>東京</h2>
         <div class="card">
