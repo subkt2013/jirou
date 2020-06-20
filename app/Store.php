@@ -17,6 +17,7 @@ class Store extends Model
         'introduction',
     ];
 
+    public $timestamps = false;
 
 
 }
