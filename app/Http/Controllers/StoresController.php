@@ -14,11 +14,24 @@ class StoresController extends Controller
         return view('store.show',['store' => $store]);
     }
 
-    public function store($store_name)
+    public function edit($id)
     {
-        $store = Store::where('store_name',$store_name)->get();
+        $store = Store::findOrFail($id);
+        return view('store.edit',['store' => $store]);
+    }
 
-        return view('store.store',['store'=>$store]);
+    
+    //city-compのやり方がうまくいきそう　もしくはこのコントローラの制限をゆるくしてやる方法
+    public function update(Request $request)
+    {
+        $store = Store::findOrFail($request->id);
+
+        $params = ['wait_people' => $requset->wait_people]->save();
+        
+        $store->fill($params)->save();
+
+        return redirect()->route('store.show', ['store' => $store]);
+
     }
 
 }

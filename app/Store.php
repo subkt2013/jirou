@@ -10,6 +10,8 @@ class Store extends Model
 
     protected $fillable =[
         'store_name',
+        'image_path',
+        'alt',
         'wait_people',
         'estemated_wait_time',
         'introduction',

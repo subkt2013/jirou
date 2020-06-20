@@ -19,8 +19,10 @@ Route::get('/', function () {
 
 Route::get('jirou/{id}','StoresController@show')->name('store.show');
 
+Route::get('jirou/{id}/edit','StoresController@edit')->name('store.edit');
+Route::put('jirou/{id}/edit', 'StoresController@update')->name('store.update');
+
+
 //Route::post('/{store_name}', 'StoresController@store')->name('store.store');
 
 Auth::routes();
-
-//Route::get('/home', 'HomeController@index')->name('home');

@@ -79,6 +79,12 @@
                     </form>
                 </div>
             </div>
+            <div class="card">
+                <div class="card-header">二郎おごります!!!</div>
+                <div class="card-body">■条件 <br>・利用者登録をすること <br> ・１０回以上投稿すること</div>
+                <div class="card-body">■どのようにしておごってもらうのか <br>・達成後１週間を目処に、登録していただいたアドレスに対して連絡を行います。</div>
+                <div class="card-body">■どのようにしておごってもらうのか <br>・達成後１週間を目処に、登録していただいたアドレスに対して連絡を行います。</div>
+            </div>
         </div>
     </div>
 </div>
